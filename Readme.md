@@ -3,6 +3,12 @@
 ## Installation
 ### Windows
 Installer EDB
+
+Régler le PATH de manière définitive ou provisoire:
+```
+$env:PATH = "C:\Program Files\PostgreSQL\18\bin;${env:PATH}"
+```
+
 ### Linux
 Installer le repository postgresql qui permet d'avoir les 5 dernières versions
 
